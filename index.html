@@ -121,10 +121,10 @@
         }
         .nav.scrolled { box-shadow: var(--shadow); }
         
-        .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+        .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 80px; }
         
         .nav-logo { display: flex; align-items: center; gap: 0.75rem; }
-        .nav-logo img { height: 44px; width: auto; }
+        .nav-logo img { height: 64px; width: auto; }
         .nav-logo-text { font-weight: 800; font-size: 1.1rem; color: var(--accent); }
         .nav-logo-text span { color: var(--primary); }
         
@@ -338,9 +338,9 @@
         .footer-brand h3 span { color: var(--primary); }
         .footer-brand p { line-height: 1.7; margin-bottom: 1.5rem; }
         .footer-social { display: flex; gap: 1rem; }
-        .footer-social a { width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 10px; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+        .footer-social a { width: 48px; height: 48px; background: rgba(255,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
         .footer-social a:hover { background: var(--primary); transform: translateY(-2px); }
-        .footer-social svg { width: 18px; height: 18px; fill: var(--white); }
+        .footer-social svg { width: 22px; height: 22px; fill: var(--white); }
         .footer-column h4 { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 1.5rem; }
         .footer-column ul { display: flex; flex-direction: column; gap: 0.75rem; }
         .footer-column a { font-size: 0.9rem; transition: color 0.2s; }
@@ -398,7 +398,7 @@
     <nav class="nav" role="navigation" aria-label="Navigation principale">
         <div class="container nav-inner">
             <a href="#" class="nav-logo" aria-label="APS Maroc - Accueil">
-                <img src="assets/logo/aps-logo.svg" alt="Logo APS Maroc" width="44" height="44" loading="eager">
+                <img src="assets/logo/aps-logo.svg" alt="Logo APS Maroc" width="64" height="64" loading="eager">
                 <span class="nav-logo-text">APS <span>Maroc</span></span>
             </a>
             <div class="nav-links">
@@ -674,7 +674,7 @@
                         </div>
                         <div class="contact-item">
                             <div class="contact-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-                            <div class="contact-item-content"><h4>Email</h4><a href="mailto:contact@aps-maroc.ma">contact@aps-maroc.ma</a></div>
+                            <div class="contact-item-content"><h4>Email</h4><a href="#" id="emailLink" class="email-link" aria-label="Envoyer un email à l'APS">Contactez-nous par email</a></div>
                         </div>
                         <div class="contact-item">
                             <div class="contact-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
@@ -706,7 +706,10 @@
                     <div class="footer-social">
                         <a href="https://www.linkedin.com/company/aps-maroc" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
                         <a href="https://www.youtube.com/@apsmaroc" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg></a>
-                        <a href="mailto:contact@aps-maroc.ma" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+                        <a href="https://www.facebook.com/apsmaroc" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="https://www.instagram.com/apsmaroc" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="https://www.tiktok.com/@apsmaroc" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.73a8.19 8.19 0 0 0 4.76 1.52V6.79a4.84 4.84 0 0 1-1-.1z"/></svg></a>
+                        <a href="#" id="footerEmail" class="email-link" aria-label="Envoyer un email à l'APS"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
                     </div>
                 </div>
                 <div class="footer-column">
@@ -784,6 +787,55 @@
                 if (target) target.scrollIntoView({ behavior: 'smooth' });
             });
         });
+        
+        const _p = ['assoprosoudage','gmail.com'];
+        const _e = _p[0] + '@' + _p[1];
+        
+        function _openMail(subject) {
+            window.location.href = 'mailto:' + _e + (subject ? '?subject=' + encodeURIComponent(subject) : '');
+        }
+        
+        const emailLink = document.getElementById('emailLink');
+        if (emailLink) {
+            emailLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                _openMail('Contact depuis le site APS');
+            });
+        }
+        
+        const footerEmail = document.getElementById('footerEmail');
+        if (footerEmail) {
+            footerEmail.addEventListener('click', function(e) {
+                e.preventDefault();
+                _openMail('');
+            });
+        }
+        
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const fn = document.getElementById('firstName').value;
+                const ln = document.getElementById('lastName').value;
+                const em = document.getElementById('email').value;
+                const co = document.getElementById('company').value;
+                const su = document.getElementById('subject');
+                const subjectText = su.options[su.selectedIndex].text;
+                const msg = document.getElementById('message').value;
+                
+                const body = 'Nom: ' + fn + ' ' + ln + '%0AEmail: ' + em + '%0AEntreprise: ' + co + '%0ASujet: ' + subjectText + '%0A%0AMessage:%0A' + msg;
+                window.location.href = 'mailto:' + _e + '?subject=' + encodeURIComponent('APS — ' + subjectText) + '&body=' + body;
+                
+                const btn = contactForm.querySelector('.form-submit');
+                btn.textContent = '✓ Ouverture de votre messagerie...';
+                btn.style.background = '#22c55e';
+                setTimeout(() => {
+                    btn.textContent = 'Envoyer le message';
+                    btn.style.background = '';
+                    contactForm.reset();
+                }, 3000);
+            });
+        }
     </script>
 </body>
 </html>
