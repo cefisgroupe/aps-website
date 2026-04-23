@@ -2,35 +2,53 @@
 <html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#c5292c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="APS Maroc">
+    <meta name="format-detection" content="telephone=no">
     
-    <title>APS — Association des Professionnels du Soudage du Maroc</title>
-    <meta name="description" content="L'Association des Professionnels du Soudage du Maroc (APS) fédère les experts du soudage, contrôle non destructif et inspection au Maroc et en Afrique. Formation, certification et networking.">
-    <meta name="keywords" content="soudage Maroc, soudure Maroc, association soudage, professionnel soudage, CND, contrôle non destructif, inspection, certification soudage, formation soudage Maroc, APS Maroc, welding Morocco">
+    <title>APS Maroc — Association des Professionnels du Soudage | Formation & Certification</title>
+    <meta name="description" content="L'Association des Professionnels du Soudage du Maroc (APS) fédère les experts du soudage, contrôle non destructif et inspection au Maroc et en Afrique. Formation, certification ISO 9606, ISO 9712, ISO 3834 et networking professionnel.">
+    <meta name="keywords" content="soudage Maroc, soudure Maroc, association soudage, professionnel soudage, CND, contrôle non destructif, inspection, certification soudage, formation soudage Maroc, APS Maroc, welding Morocco, ISO 9606, ISO 9712, ISO 3834, soudeur Casablanca, TIG, MIG, MAG, soudage industriel Afrique">
     <meta name="author" content="Association des Professionnels du Soudage du Maroc">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
     <link rel="canonical" href="https://aps-maroc.ma/">
     
-    <meta property="og:title" content="APS — Association des Professionnels du Soudage du Maroc">
-    <meta property="og:description" content="Fédérer les professionnels du soudage au Maroc. Formation, certification, networking et excellence technique.">
+    <link rel="alternate" hreflang="fr-MA" href="https://aps-maroc.ma/">
+    <link rel="alternate" hreflang="en-MA" href="https://aps-maroc.ma/en/">
+    <link rel="alternate" hreflang="ar-MA" href="https://aps-maroc.ma/ar/">
+    
+    <meta property="og:title" content="APS Maroc — Association des Professionnels du Soudage">
+    <meta property="og:description" content="Fédérer les professionnels du soudage au Maroc. Formation, certification, networking et excellence technique au service de l'industrie africaine.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aps-maroc.ma/">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&h=630&fit=crop">
+    <meta property="og:image" content="https://images.pexels.com/photos/3766647/pexels-photo-3766647.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Soudeur professionnel en action avec étincelles de soudage">
     <meta property="og:locale" content="fr_MA">
     <meta property="og:site_name" content="APS Maroc">
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="APS — Association des Professionnels du Soudage du Maroc">
+    <meta name="twitter:title" content="APS Maroc — Association des Professionnels du Soudage">
     <meta name="twitter:description" content="Fédérer les professionnels du soudage au Maroc. Formation, certification, networking et excellence technique.">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&h=630&fit=crop">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/3766647/pexels-photo-3766647.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop">
+    <meta name="twitter:image:alt" content="Soudeur professionnel en action">
     
     <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
-    <link rel="icon" type="image/png" href="assets/logo/aps-logo.png" sizes="any">
+    <link rel="icon" type="image/png" href="assets/logo/aps-logo.png" sizes="512x512">
     <link rel="apple-touch-icon" href="assets/logo/aps-logo.png">
+    <link rel="manifest" href="manifest.json">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.pexels.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <script type="application/ld+json">
@@ -41,6 +59,7 @@
         "alternateName": "APS Maroc",
         "url": "https://aps-maroc.ma",
         "logo": "https://aps-maroc.ma/assets/logo/aps-logo.svg",
+        "image": "https://images.pexels.com/photos/3766647/pexels-photo-3766647.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "description": "Association fédérant les professionnels du soudage, contrôle non destructif et inspection au Maroc et en Afrique.",
         "address": {
             "@type": "PostalAddress",
@@ -49,13 +68,44 @@
         },
         "contactPoint": {
             "@type": "ContactPoint",
-            "email": "contact@aps-maroc.ma",
+            "email": "assoprosoudage@gmail.com",
             "contactType": "customer service",
             "availableLanguage": ["French", "Arabic", "English"]
         },
         "sameAs": [
             "https://www.linkedin.com/company/aps-maroc",
-            "https://www.youtube.com/@apsmaroc"
+            "https://www.youtube.com/@apsmaroc",
+            "https://www.facebook.com/apsmaroc",
+            "https://www.instagram.com/apsmaroc"
+        ],
+        "knowsAbout": ["Soudage", "Contrôle Non Destructif", "Certification ISO 9606", "Certification ISO 9712", "Certification ISO 3834", "Inspection Industrielle", "Formation Professionnelle"]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "APS Maroc",
+        "url": "https://aps-maroc.ma/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://aps-maroc.ma/recherche?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://aps-maroc.ma/" },
+            { "@type": "ListItem", "position": 2, "name": "À propos", "item": "https://aps-maroc.ma/#about" },
+            { "@type": "ListItem", "position": 3, "name": "Services", "item": "https://aps-maroc.ma/#services" },
+            { "@type": "ListItem", "position": 4, "name": "Certifications", "item": "https://aps-maroc.ma/#certifications" },
+            { "@type": "ListItem", "position": 5, "name": "Contact", "item": "https://aps-maroc.ma/#contact" }
         ]
     }
     </script>
@@ -91,9 +141,11 @@
             --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
             --radius: 12px;
             --radius-lg: 20px;
+            --nav-h: 80px;
+            --touch-target: 44px;
         }
         
-        html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+        html { scroll-behavior: smooth; scroll-padding-top: var(--nav-h); }
         
         body {
             font-family: var(--font);
@@ -101,39 +153,40 @@
             color: var(--gray-800);
             background: var(--white);
             -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
             overflow-x: hidden;
+            text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
         }
         
         img { max-width: 100%; height: auto; display: block; }
         a { color: inherit; text-decoration: none; }
         ul { list-style: none; }
         
-        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 1.25rem; }
         
+        /* Navigation */
         .nav {
             position: fixed;
             top: 0; left: 0; right: 0;
             z-index: 1000;
             background: rgba(255,255,255,0.97);
             backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--gray-200);
             transition: box-shadow 0.3s;
         }
         .nav.scrolled { box-shadow: var(--shadow); }
-        
-        .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 80px; }
-        
+        .nav-inner { display: flex; align-items: center; justify-content: space-between; height: var(--nav-h); }
         .nav-logo { display: flex; align-items: center; gap: 0.75rem; }
         .nav-logo img { height: 64px; width: auto; }
         .nav-logo-text { font-weight: 800; font-size: 1.1rem; color: var(--accent); }
         .nav-logo-text span { color: var(--primary); }
-        
         .nav-links { display: flex; align-items: center; gap: 1.75rem; }
-        .nav-link { font-size: 0.88rem; font-weight: 500; color: var(--gray-600); transition: color 0.2s; position: relative; }
+        .nav-link { font-size: 0.88rem; font-weight: 500; color: var(--gray-600); transition: color 0.2s; position: relative; min-height: var(--touch-target); display: flex; align-items: center; }
         .nav-link:hover { color: var(--primary); }
         .nav-link::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--primary); transition: width 0.3s; }
         .nav-link:hover::after { width: 100%; }
-        
         .nav-cta {
             padding: 0.6rem 1.25rem;
             background: var(--primary);
@@ -142,108 +195,90 @@
             font-weight: 600;
             font-size: 0.88rem;
             transition: all 0.2s;
+            min-height: var(--touch-target);
+            display: flex;
+            align-items: center;
         }
         .nav-cta:hover { background: var(--primary-dark); transform: translateY(-1px); }
-        
-        .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 0.5rem; background: none; border: none; }
+        .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 0.5rem; background: none; border: none; min-width: var(--touch-target); min-height: var(--touch-target); justify-content: center; align-items: center; }
         .nav-toggle span { width: 24px; height: 2px; background: var(--gray-800); transition: all 0.3s; border-radius: 2px; }
         
+        /* Hero */
         .hero {
             min-height: 100vh;
+            min-height: 100dvh;
             display: flex;
             align-items: center;
             position: relative;
             overflow: hidden;
-            padding-top: 72px;
+            padding-top: var(--nav-h);
         }
-        .hero-bg {
-            position: absolute;
-            inset: 0;
-            z-index: 0;
-        }
-        .hero-bg img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .hero-bg::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, rgba(26,26,46,0.92) 0%, rgba(57,65,68,0.85) 50%, rgba(197,41,44,0.7) 100%);
-        }
-        
+        .hero-bg { position: absolute; inset: 0; z-index: 0; }
+        .hero-bg img { width: 100%; height: 100%; object-fit: cover; }
+        .hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(26,26,46,0.92) 0%, rgba(57,65,68,0.85) 50%, rgba(197,41,44,0.7) 100%); }
         .hero-content { position: relative; z-index: 2; max-width: 800px; }
-        
         .hero-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
+            display: inline-flex; align-items: center; gap: 0.5rem;
             padding: 0.5rem 1rem;
             background: rgba(197,41,44,0.2);
             border: 1px solid rgba(197,41,44,0.4);
             border-radius: 50px;
             color: #ff8a8c;
-            font-size: 0.85rem;
-            font-weight: 600;
+            font-size: 0.85rem; font-weight: 600;
             margin-bottom: 1.5rem;
         }
         .hero-badge-dot { width: 8px; height: 8px; background: var(--primary); border-radius: 50%; animation: pulse 2s infinite; }
         @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-        
-        .hero h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.1; color: var(--white); margin-bottom: 1.5rem; }
+        .hero h1 { font-size: clamp(2rem, 7vw, 4.5rem); font-weight: 900; line-height: 1.1; color: var(--white); margin-bottom: 1.25rem; }
         .hero h1 span { background: linear-gradient(135deg, var(--primary-light), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        
-        .hero-text { font-size: clamp(1rem, 2vw, 1.25rem); color: rgba(255,255,255,0.8); max-width: 600px; margin-bottom: 2.5rem; line-height: 1.7; }
-        
-        .hero-buttons { display: flex; flex-wrap: wrap; gap: 1rem; }
+        .hero-text { font-size: clamp(1rem, 2.5vw, 1.25rem); color: rgba(255,255,255,0.85); max-width: 600px; margin-bottom: 2rem; line-height: 1.7; }
+        .hero-buttons { display: flex; flex-wrap: wrap; gap: 0.75rem; }
         
         .btn {
-            display: inline-flex; align-items: center; gap: 0.5rem;
-            padding: 1rem 2rem; border-radius: var(--radius);
+            display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+            padding: 0.9rem 1.75rem; border-radius: var(--radius);
             font-weight: 600; font-size: 1rem;
             transition: all 0.3s; cursor: pointer; border: none;
+            min-height: var(--touch-target);
         }
         .btn-primary { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--white); box-shadow: 0 4px 15px rgba(197,41,44,0.4); }
         .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(197,41,44,0.5); }
         .btn-outline { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,0.3); }
         .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.1); }
         
-        .hero-stats { display: flex; gap: 3rem; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.15); }
+        .hero-stats { display: flex; gap: 2rem; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.15); flex-wrap: wrap; }
         .hero-stat { text-align: left; }
-        .hero-stat-number { font-size: 2rem; font-weight: 800; color: var(--white); }
-        .hero-stat-label { font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-top: 0.25rem; }
+        .hero-stat-number { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 800; color: var(--white); }
+        .hero-stat-label { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.25rem; }
         
-        section { padding: 6rem 0; }
+        /* Sections */
+        section { padding: 5rem 0; }
+        .section-header { text-align: center; max-width: 700px; margin: 0 auto 3rem; }
+        .section-label { display: inline-block; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 0.75rem; }
+        .section-title { font-size: clamp(1.75rem, 5vw, 3rem); font-weight: 800; color: var(--gray-900); line-height: 1.2; margin-bottom: 0.75rem; }
+        .section-subtitle { font-size: 1rem; color: var(--gray-600); line-height: 1.7; }
         
-        .section-header { text-align: center; max-width: 700px; margin: 0 auto 4rem; }
-        .section-label { display: inline-block; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 1rem; }
-        .section-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: var(--gray-900); line-height: 1.2; margin-bottom: 1rem; }
-        .section-subtitle { font-size: 1.1rem; color: var(--gray-600); line-height: 1.7; }
-        
+        /* About */
         .about { background: var(--gray-50); }
-        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
-        
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
         .about-image { position: relative; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 4/3; }
         .about-image img { width: 100%; height: 100%; object-fit: cover; }
         .about-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(197,41,44,0.15), rgba(57,65,68,0.1)); pointer-events: none; }
-        
-        .about-content h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); font-weight: 800; color: var(--gray-900); margin-bottom: 1.5rem; line-height: 1.2; }
-        .about-content p { color: var(--gray-600); margin-bottom: 1.5rem; line-height: 1.8; }
-        
-        .about-features { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
+        .about-content h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 800; color: var(--gray-900); margin-bottom: 1.25rem; line-height: 1.2; }
+        .about-content p { color: var(--gray-600); margin-bottom: 1.25rem; line-height: 1.8; }
+        .about-features { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 1.5rem; }
         .about-feature { display: flex; align-items: center; gap: 0.75rem; }
         .about-feature-icon { width: 32px; height: 32px; background: rgba(197,41,44,0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
         .about-feature-icon svg { width: 16px; height: 16px; stroke: var(--primary); }
-        .about-feature span { font-size: 0.9rem; font-weight: 500; color: var(--gray-700); }
+        .about-feature span { font-size: 0.88rem; font-weight: 500; color: var(--gray-700); }
         
-        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-        
+        /* Services */
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
         .service-card {
             background: var(--white);
             border: 1px solid var(--gray-200);
             border-radius: var(--radius-lg);
-            padding: 2.5rem;
+            padding: 2rem;
             transition: all 0.3s;
             position: relative;
             overflow: hidden;
@@ -251,47 +286,27 @@
         .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), var(--secondary)); transform: scaleX(0); transition: transform 0.3s; }
         .service-card:hover { border-color: var(--primary); box-shadow: var(--shadow-xl); transform: translateY(-4px); }
         .service-card:hover::before { transform: scaleX(1); }
+        .service-icon { width: 56px; height: 56px; background: linear-gradient(135deg, rgba(197,41,44,0.1), rgba(255,222,89,0.1)); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem; }
+        .service-icon svg { width: 26px; height: 26px; stroke: var(--primary); }
+        .service-card h3 { font-size: 1.15rem; font-weight: 700; color: var(--gray-900); margin-bottom: 0.5rem; }
+        .service-card p { color: var(--gray-600); font-size: 0.9rem; line-height: 1.7; }
         
-        .service-icon { width: 60px; height: 60px; background: linear-gradient(135deg, rgba(197,41,44,0.1), rgba(255,222,89,0.1)); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; }
-        .service-icon svg { width: 28px; height: 28px; stroke: var(--primary); }
-        .service-card h3 { font-size: 1.25rem; font-weight: 700; color: var(--gray-900); margin-bottom: 0.75rem; }
-        .service-card p { color: var(--gray-600); font-size: 0.95rem; line-height: 1.7; }
-        
+        /* Certifications */
         .certification { background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%); color: var(--white); position: relative; overflow: hidden; }
         .certification::before { content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: radial-gradient(ellipse at center right, rgba(197,41,44,0.15) 0%, transparent 70%); }
         .certification .section-title { color: var(--white); }
         .certification .section-subtitle { color: rgba(255,255,255,0.7); }
-        
-        .cert-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; position: relative; z-index: 2; }
-        .cert-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius-lg); padding: 2rem; transition: all 0.3s; }
+        .cert-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; position: relative; z-index: 2; }
+        .cert-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius-lg); padding: 1.75rem; transition: all 0.3s; }
         .cert-card:hover { background: rgba(255,255,255,0.1); border-color: var(--primary); transform: translateY(-4px); }
-        .cert-card-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
-        .cert-badge { width: 50px; height: 50px; background: linear-gradient(135deg, var(--primary), var(--primary-light)); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0; }
-        .cert-card h3 { font-size: 1.1rem; font-weight: 700; }
-        .cert-card p { color: rgba(255,255,255,0.7); font-size: 0.9rem; line-height: 1.7; }
+        .cert-card-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem; }
+        .cert-badge { width: 48px; height: 48px; background: linear-gradient(135deg, var(--primary), var(--primary-light)); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0; }
+        .cert-card h3 { font-size: 1.05rem; font-weight: 700; }
+        .cert-card p { color: rgba(255,255,255,0.7); font-size: 0.88rem; line-height: 1.7; }
         
-        .events { background: var(--gray-50); }
-        .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-        
-        .event-card { background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s; }
-        .event-card:hover { box-shadow: var(--shadow-xl); transform: translateY(-4px); }
-        
-        .event-image { height: 220px; position: relative; overflow: hidden; }
-        .event-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
-        .event-card:hover .event-image img { transform: scale(1.05); }
-        .event-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.4), transparent); }
-        
-        .event-date { position: absolute; top: 1rem; left: 1rem; background: var(--white); padding: 0.5rem 1rem; border-radius: 8px; text-align: center; box-shadow: var(--shadow); z-index: 2; }
-        .event-date-day { font-size: 1.5rem; font-weight: 800; color: var(--primary); line-height: 1; }
-        .event-date-month { font-size: 0.75rem; font-weight: 600; color: var(--gray-600); text-transform: uppercase; }
-        
-        .event-content { padding: 1.5rem; }
-        .event-tag { display: inline-block; padding: 0.25rem 0.75rem; background: rgba(197,41,44,0.1); color: var(--primary); border-radius: 50px; font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem; }
-        .event-content h3 { font-size: 1.1rem; font-weight: 700; color: var(--gray-900); margin-bottom: 0.5rem; }
-        .event-content p { color: var(--gray-600); font-size: 0.9rem; line-height: 1.6; }
-        
+        /* Gallery */
         .gallery { background: var(--white); }
-        .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
         .gallery-item { border-radius: var(--radius); overflow: hidden; aspect-ratio: 1; position: relative; }
         .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
         .gallery-item:hover img { transform: scale(1.1); }
@@ -299,62 +314,95 @@
         .gallery-item:hover::after { background: rgba(197,41,44,0.2); }
         .gallery-item:nth-child(1) { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; }
         
-        .partners-logos { display: flex; flex-wrap: wrap; justify-content: center; gap: 3rem; align-items: center; }
-        .partner-logo { width: 120px; height: 60px; background: var(--gray-100); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--gray-500); font-size: 0.8rem; transition: all 0.3s; }
+        /* Events */
+        .events { background: var(--gray-50); }
+        .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .event-card { background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s; }
+        .event-card:hover { box-shadow: var(--shadow-xl); transform: translateY(-4px); }
+        .event-image { height: 200px; position: relative; overflow: hidden; }
+        .event-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+        .event-card:hover .event-image img { transform: scale(1.05); }
+        .event-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.4), transparent); }
+        .event-date { position: absolute; top: 1rem; left: 1rem; background: var(--white); padding: 0.5rem 0.85rem; border-radius: 8px; text-align: center; box-shadow: var(--shadow); z-index: 2; }
+        .event-date-day { font-size: 1.5rem; font-weight: 800; color: var(--primary); line-height: 1; }
+        .event-date-month { font-size: 0.7rem; font-weight: 600; color: var(--gray-600); text-transform: uppercase; }
+        .event-content { padding: 1.25rem; }
+        .event-tag { display: inline-block; padding: 0.25rem 0.75rem; background: rgba(197,41,44,0.1); color: var(--primary); border-radius: 50px; font-size: 0.7rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .event-content h3 { font-size: 1.05rem; font-weight: 700; color: var(--gray-900); margin-bottom: 0.4rem; }
+        .event-content p { color: var(--gray-600); font-size: 0.88rem; line-height: 1.6; }
+        
+        /* Partners */
+        .partners-logos { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; }
+        .partner-logo { width: 110px; height: 55px; background: var(--gray-100); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--gray-500); font-size: 0.75rem; transition: all 0.3s; }
         .partner-logo:hover { background: var(--gray-200); transform: scale(1.05); }
         
+        /* CTA */
         .cta { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--white); text-align: center; position: relative; overflow: hidden; }
         .cta::before { content: ''; position: absolute; top: -50%; left: -20%; width: 140%; height: 200%; background: radial-gradient(ellipse, rgba(255,255,255,0.1) 0%, transparent 60%); }
         .cta-content { position: relative; z-index: 2; }
-        .cta h2 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 1rem; }
-        .cta p { font-size: 1.15rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2.5rem; }
+        .cta h2 { font-size: clamp(1.75rem, 5vw, 3rem); font-weight: 800; margin-bottom: 0.75rem; }
+        .cta p { font-size: 1.05rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
         .btn-white { background: var(--white); color: var(--primary); box-shadow: var(--shadow-lg); }
         .btn-white:hover { transform: translateY(-2px); box-shadow: var(--shadow-xl); }
         
-        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
-        .contact-info h3 { font-size: 1.5rem; font-weight: 700; color: var(--gray-900); margin-bottom: 1rem; }
-        .contact-info > p { color: var(--gray-600); margin-bottom: 2rem; line-height: 1.7; }
-        .contact-items { display: flex; flex-direction: column; gap: 1.5rem; }
+        /* Contact */
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+        .contact-info h3 { font-size: 1.4rem; font-weight: 700; color: var(--gray-900); margin-bottom: 0.75rem; }
+        .contact-info > p { color: var(--gray-600); margin-bottom: 1.5rem; line-height: 1.7; }
+        .contact-items { display: flex; flex-direction: column; gap: 1.25rem; }
         .contact-item { display: flex; align-items: flex-start; gap: 1rem; }
         .contact-item-icon { width: 48px; height: 48px; background: rgba(197,41,44,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
         .contact-item-icon svg { width: 20px; height: 20px; stroke: var(--primary); }
-        .contact-item-content h4 { font-size: 0.95rem; font-weight: 600; color: var(--gray-900); margin-bottom: 0.25rem; }
-        .contact-item-content p, .contact-item-content a { color: var(--gray-600); font-size: 0.9rem; }
+        .contact-item-content h4 { font-size: 0.9rem; font-weight: 600; color: var(--gray-900); margin-bottom: 0.2rem; }
+        .contact-item-content p, .contact-item-content a { color: var(--gray-600); font-size: 0.88rem; }
         .contact-item-content a:hover { color: var(--primary); }
-        
-        .contact-form { background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow); }
-        .form-group { margin-bottom: 1.5rem; }
-        .form-group label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--gray-700); margin-bottom: 0.5rem; }
-        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 0.85rem 1rem; border: 1px solid var(--gray-300); border-radius: var(--radius); font-family: var(--font); font-size: 0.95rem; transition: all 0.2s; background: var(--white); }
+        .contact-form { background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow); }
+        .form-group { margin-bottom: 1.25rem; }
+        .form-group label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--gray-700); margin-bottom: 0.4rem; }
+        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 0.8rem 1rem; border: 1px solid var(--gray-300); border-radius: var(--radius); font-family: var(--font); font-size: 1rem; transition: all 0.2s; background: var(--white); min-height: var(--touch-target); -webkit-appearance: none; }
         .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(197,41,44,0.1); }
         .form-group textarea { min-height: 120px; resize: vertical; }
         .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-        .form-submit { width: 100%; padding: 1rem; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--white); border: none; border-radius: var(--radius); font-family: var(--font); font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.3s; }
+        .form-submit { width: 100%; padding: 1rem; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--white); border: none; border-radius: var(--radius); font-family: var(--font); font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.3s; min-height: var(--touch-target); }
         .form-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(197,41,44,0.4); }
         
-        .footer { background: var(--accent); color: rgba(255,255,255,0.7); padding: 4rem 0 2rem; }
-        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; }
-        .footer-brand h3 { font-size: 1.5rem; font-weight: 800; color: var(--white); margin-bottom: 1rem; }
+        /* Footer */
+        .footer { background: var(--accent); color: rgba(255,255,255,0.7); padding: 3.5rem 0 1.5rem; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2.5rem; margin-bottom: 2.5rem; }
+        .footer-brand h3 { font-size: 1.4rem; font-weight: 800; color: var(--white); margin-bottom: 0.75rem; }
         .footer-brand h3 span { color: var(--primary); }
-        .footer-brand p { line-height: 1.7; margin-bottom: 1.5rem; }
-        .footer-social { display: flex; gap: 1rem; }
-        .footer-social a { width: 48px; height: 48px; background: rgba(255,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+        .footer-brand p { line-height: 1.7; margin-bottom: 1.25rem; font-size: 0.9rem; }
+        .footer-social { display: flex; gap: 0.75rem; }
+        .footer-social a { width: 48px; height: 48px; background: rgba(255,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s; min-width: var(--touch-target); min-height: var(--touch-target); }
         .footer-social a:hover { background: var(--primary); transform: translateY(-2px); }
         .footer-social svg { width: 22px; height: 22px; fill: var(--white); }
-        .footer-column h4 { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 1.5rem; }
-        .footer-column ul { display: flex; flex-direction: column; gap: 0.75rem; }
-        .footer-column a { font-size: 0.9rem; transition: color 0.2s; }
+        .footer-column h4 { font-size: 0.95rem; font-weight: 700; color: var(--white); margin-bottom: 1.25rem; }
+        .footer-column ul { display: flex; flex-direction: column; gap: 0.6rem; }
+        .footer-column a { font-size: 0.88rem; transition: color 0.2s; min-height: var(--touch-target); display: flex; align-items: center; }
         .footer-column a:hover { color: var(--primary); }
-        .footer-bottom { padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-        .footer-bottom p { font-size: 0.85rem; }
-        .footer-bottom-links { display: flex; gap: 2rem; }
-        .footer-bottom-links a { font-size: 0.85rem; transition: color 0.2s; }
+        .footer-bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .footer-bottom p { font-size: 0.82rem; }
+        .footer-bottom-links { display: flex; gap: 1.5rem; }
+        .footer-bottom-links a { font-size: 0.82rem; transition: color 0.2s; }
         .footer-bottom-links a:hover { color: var(--primary); }
         
-        .mobile-menu { display: none; position: fixed; top: 72px; left: 0; right: 0; bottom: 0; background: var(--white); z-index: 999; padding: 2rem; flex-direction: column; gap: 1.5rem; overflow-y: auto; }
+        /* Mobile Menu */
+        .mobile-menu { display: none; position: fixed; top: var(--nav-h); left: 0; right: 0; bottom: 0; background: var(--white); z-index: 999; padding: 1.5rem; flex-direction: column; gap: 0; overflow-y: auto; }
         .mobile-menu.active { display: flex; }
-        .mobile-menu a { font-size: 1.25rem; font-weight: 600; color: var(--gray-800); padding: 0.75rem 0; border-bottom: 1px solid var(--gray-200); }
+        .mobile-menu a { font-size: 1.15rem; font-weight: 600; color: var(--gray-800); padding: 1rem 0; border-bottom: 1px solid var(--gray-200); min-height: var(--touch-target); display: flex; align-items: center; }
         
+        /* Animations */
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .animate { animation: fadeInUp 0.6s ease forwards; }
+        
+        /* Accessibility */
+        :focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
+        
+        /* Print */
+        @media print { .nav, .hero-bg::after { display: none; } .hero { min-height: auto; padding: 2rem 0; } section { padding: 2rem 0; } body { color: #000; } }
+        
+        /* Mobile-first responsive */
         @media (max-width: 1024px) {
             .services-grid, .events-grid { grid-template-columns: repeat(2, 1fr); }
             .gallery-grid { grid-template-columns: repeat(3, 1fr); }
@@ -363,42 +411,50 @@
         }
         
         @media (max-width: 768px) {
+            :root { --nav-h: 70px; }
             .nav-links { display: none; }
             .nav-toggle { display: flex; }
-            .hero-stats { gap: 2rem; flex-wrap: wrap; }
-            .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
-            .services-grid, .events-grid, .cert-grid { grid-template-columns: 1fr; }
+            .nav-logo img { height: 52px; }
+            .nav-logo-text { font-size: 1rem; }
+            .hero { min-height: auto; padding: calc(var(--nav-h) + 2rem) 0 3rem; }
+            .hero-stats { gap: 1.5rem; }
+            .hero-stat-number { font-size: 1.5rem; }
+            .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+            .about-image { order: -1; }
             .about-features { grid-template-columns: 1fr; }
+            .services-grid, .events-grid, .cert-grid { grid-template-columns: 1fr; }
             .gallery-grid { grid-template-columns: repeat(2, 1fr); }
-            .gallery-item:nth-child(1) { grid-column: span 2; grid-row: span 1; aspect-ratio: 2/1; }
+            .gallery-item:nth-child(1) { grid-column: span 2; grid-row: span 1; aspect-ratio: 16/9; }
+            .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
             .form-row { grid-template-columns: 1fr; }
             .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
             .footer-bottom { flex-direction: column; text-align: center; }
-            section { padding: 4rem 0; }
+            section { padding: 3.5rem 0; }
+            .section-header { margin-bottom: 2rem; }
+            .container { padding: 0 1rem; }
         }
         
         @media (max-width: 480px) {
             .hero-buttons { flex-direction: column; }
-            .btn { justify-content: center; width: 100%; }
-            .hero-stats { flex-direction: column; gap: 1.5rem; }
-            .partners-logos { gap: 1.5rem; }
-            .partner-logo { width: 100px; height: 50px; }
+            .btn { width: 100%; }
+            .hero-stats { flex-direction: column; gap: 1rem; }
+            .partners-logos { gap: 1rem; }
+            .partner-logo { width: 90px; height: 45px; font-size: 0.7rem; }
+            .event-image { height: 180px; }
+            .contact-form { padding: 1.5rem; }
         }
         
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-        .animate { animation: fadeInUp 0.6s ease forwards; }
-        
-        :focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
-        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
-        
-        @media print { .nav, .hero-bg::after { display: none; } .hero { min-height: auto; padding: 2rem 0; } section { padding: 2rem 0; } body { color: #000; } }
+        @media (max-width: 360px) {
+            .hero h1 { font-size: 1.75rem; }
+            .section-title { font-size: 1.5rem; }
+        }
     </style>
 </head>
 <body>
     <nav class="nav" role="navigation" aria-label="Navigation principale">
         <div class="container nav-inner">
             <a href="#" class="nav-logo" aria-label="APS Maroc - Accueil">
-                <img src="assets/logo/aps-logo.svg" alt="Logo APS Maroc" width="64" height="64" loading="eager">
+                <img src="assets/logo/aps-logo.svg" alt="Logo APS Maroc - Association des Professionnels du Soudage" width="64" height="64" loading="eager" fetchpriority="high">
                 <span class="nav-logo-text">APS <span>Maroc</span></span>
             </a>
             <div class="nav-links">
@@ -410,7 +466,7 @@
                 <a href="#partners" class="nav-link">Partenaires</a>
                 <a href="#contact" class="nav-cta">Nous contacter</a>
             </div>
-            <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="toggleMenu()">
+            <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" onclick="toggleMenu()">
                 <span></span><span></span><span></span>
             </button>
         </div>
@@ -428,7 +484,7 @@
     
     <header class="hero" id="hero">
         <div class="hero-bg">
-            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1920&q=80&auto=format&fit=crop" alt="Soudeur professionnel en action avec étincelles de soudage" loading="eager" fetchpriority="high" width="1920" height="1080">
+            <img src="https://images.pexels.com/photos/3766647/pexels-photo-3766647.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&fit=crop" alt="Soudeur professionnel en action avec étincelles de soudage dans un atelier industriel" loading="eager" fetchpriority="high" width="1280" height="720">
         </div>
         <div class="container">
             <div class="hero-content">
@@ -452,11 +508,12 @@
         </div>
     </header>
     
+    <main>
     <section class="about" id="about">
         <div class="container">
             <div class="about-grid">
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800&q=80&auto=format&fit=crop" alt="Atelier de soudage professionnel avec équipements modernes" loading="lazy" width="800" height="600">
+                    <img src="https://images.pexels.com/photos/4796722/pexels-photo-4796722.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Atelier de soudage professionnel avec équipements modernes au Maroc" loading="lazy" width="800" height="600" decoding="async">
                 </div>
                 <div class="about-content">
                     <span class="section-label">À propos de l'APS</span>
@@ -565,19 +622,19 @@
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?w=800&q=80&auto=format&fit=crop" alt="Soudeur TIG travaillant sur une pièce métallique avec précision" loading="lazy" width="800" height="600">
+                    <img src="https://images.pexels.com/photos/3766647/pexels-photo-3766647.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Soudeur TIG travaillant sur une pièce métallique avec précision et étincelles" loading="lazy" width="800" height="600" decoding="async">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=400&q=80&auto=format&fit=crop" alt="Étincelles de soudage en action sur acier" loading="lazy" width="400" height="400">
+                    <img src="https://images.pexels.com/photos/4796722/pexels-photo-4796722.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Étincelles de soudage en action sur acier dans un atelier" loading="lazy" width="400" height="400" decoding="async">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=400&q=80&auto=format&fit=crop" alt="Soudeur TIG avec masque de protection en atelier" loading="lazy" width="400" height="400">
+                    <img src="https://images.pexels.com/photos/3846287/pexels-photo-3846287.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Soudeur avec masque de protection en atelier industriel" loading="lazy" width="400" height="400" decoding="async">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=400&q=80&auto=format&fit=crop" alt="Étincelles de soudage sur pièce métallique" loading="lazy" width="400" height="400">
+                    <img src="https://images.pexels.com/photos/3846288/pexels-photo-3846288.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Soudage MIG sur structure métallique industrielle" loading="lazy" width="400" height="400" decoding="async">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&q=80&auto=format&fit=crop" alt="Soudeur industriel en action avec gerbe d'étincelles" loading="lazy" width="400" height="400">
+                    <img src="https://images.pexels.com/photos/3846286/pexels-photo-3846286.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Soudeur industriel en action avec gerbe d'étincelles" loading="lazy" width="400" height="400" decoding="async">
                 </div>
             </div>
         </div>
@@ -593,7 +650,7 @@
             <div class="events-grid">
                 <article class="event-card">
                     <div class="event-image">
-                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80&auto=format&fit=crop" alt="Formation pratique en soudage avec étincelles" loading="lazy" width="600" height="400">
+                        <img src="https://images.pexels.com/photos/3766647/pexels-photo-3766647.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Formation pratique en soudage avec étincelles et équipement de protection" loading="lazy" width="600" height="400" decoding="async">
                         <div class="event-date"><div class="event-date-day">15</div><div class="event-date-month">Juin</div></div>
                     </div>
                     <div class="event-content">
@@ -604,7 +661,7 @@
                 </article>
                 <article class="event-card">
                     <div class="event-image">
-                        <img src="https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?w=600&q=80&auto=format&fit=crop" alt="Compétition de soudage TIG professionnel" loading="lazy" width="600" height="400">
+                        <img src="https://images.pexels.com/photos/3846287/pexels-photo-3846287.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Compétition de soudage TIG professionnel au Maroc" loading="lazy" width="600" height="400" decoding="async">
                         <div class="event-date"><div class="event-date-day">22</div><div class="event-date-month">Sept</div></div>
                     </div>
                     <div class="event-content">
@@ -615,7 +672,7 @@
                 </article>
                 <article class="event-card">
                     <div class="event-image">
-                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80&auto=format&fit=crop" alt="Conférence industrielle sur le soudage en Afrique" loading="lazy" width="600" height="400">
+                        <img src="https://images.pexels.com/photos/3846288/pexels-photo-3846288.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Conférence industrielle sur le soudage en Afrique" loading="lazy" width="600" height="400" decoding="async">
                         <div class="event-date"><div class="event-date-day">10</div><div class="event-date-month">Nov</div></div>
                     </div>
                     <div class="event-content">
@@ -682,13 +739,13 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" action="#" method="POST" aria-label="Formulaire de contact">
+                <form class="contact-form" action="#" method="POST" aria-label="Formulaire de contact APS">
                     <div class="form-row">
-                        <div class="form-group"><label for="firstName">Prénom *</label><input type="text" id="firstName" name="firstName" required placeholder="Votre prénom"></div>
-                        <div class="form-group"><label for="lastName">Nom *</label><input type="text" id="lastName" name="lastName" required placeholder="Votre nom"></div>
+                        <div class="form-group"><label for="firstName">Prénom *</label><input type="text" id="firstName" name="firstName" required placeholder="Votre prénom" autocomplete="given-name"></div>
+                        <div class="form-group"><label for="lastName">Nom *</label><input type="text" id="lastName" name="lastName" required placeholder="Votre nom" autocomplete="family-name"></div>
                     </div>
-                    <div class="form-group"><label for="email">Email *</label><input type="email" id="email" name="email" required placeholder="votre@email.com"></div>
-                    <div class="form-group"><label for="company">Entreprise</label><input type="text" id="company" name="company" placeholder="Nom de votre entreprise"></div>
+                    <div class="form-group"><label for="email">Email *</label><input type="email" id="email" name="email" required placeholder="votre@email.com" autocomplete="email"></div>
+                    <div class="form-group"><label for="company">Entreprise</label><input type="text" id="company" name="company" placeholder="Nom de votre entreprise" autocomplete="organization"></div>
                     <div class="form-group"><label for="subject">Sujet</label><select id="subject" name="subject"><option value="">Sélectionnez un sujet</option><option value="membership">Demande d'adhésion</option><option value="formation">Information sur les formations</option><option value="certification">Certification</option><option value="partenariat">Proposition de partenariat</option><option value="autre">Autre</option></select></div>
                     <div class="form-group"><label for="message">Message *</label><textarea id="message" name="message" required placeholder="Votre message..."></textarea></div>
                     <button type="submit" class="form-submit">Envoyer le message</button>
@@ -696,6 +753,7 @@
             </div>
         </div>
     </section>
+    </main>
     
     <footer class="footer" role="contentinfo">
         <div class="container">
@@ -704,11 +762,11 @@
                     <h3>APS <span>Maroc</span></h3>
                     <p>Association des Professionnels du Soudage du Maroc. Fédérer, former et certifier les experts du soudage en Afrique.</p>
                     <div class="footer-social">
-                        <a href="https://www.linkedin.com/company/aps-maroc" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
-                        <a href="https://www.youtube.com/@apsmaroc" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg></a>
-                        <a href="https://www.facebook.com/apsmaroc" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-                        <a href="https://www.instagram.com/apsmaroc" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-                        <a href="https://www.tiktok.com/@apsmaroc" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.73a8.19 8.19 0 0 0 4.76 1.52V6.79a4.84 4.84 0 0 1-1-.1z"/></svg></a>
+                        <a href="https://www.linkedin.com/company/aps-maroc" aria-label="LinkedIn APS Maroc" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="https://www.youtube.com/@apsmaroc" aria-label="YouTube APS Maroc" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg></a>
+                        <a href="https://www.facebook.com/apsmaroc" aria-label="Facebook APS Maroc" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="https://www.instagram.com/apsmaroc" aria-label="Instagram APS Maroc" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="https://www.tiktok.com/@apsmaroc" aria-label="TikTok APS Maroc" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.73a8.19 8.19 0 0 0 4.76 1.52V6.79a4.84 4.84 0 0 1-1-.1z"/></svg></a>
                         <a href="#" id="footerEmail" class="email-link" aria-label="Envoyer un email à l'APS"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
                     </div>
                 </div>
@@ -758,13 +816,15 @@
         function toggleMenu() {
             const menu = document.getElementById('mobileMenu');
             const toggle = document.querySelector('.nav-toggle');
-            menu.classList.toggle('active');
-            toggle.setAttribute('aria-expanded', menu.classList.contains('active'));
+            const isOpen = menu.classList.toggle('active');
+            toggle.setAttribute('aria-expanded', isOpen);
+            toggle.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+            document.body.style.overflow = isOpen ? 'hidden' : '';
         }
         
         window.addEventListener('scroll', () => {
             document.querySelector('.nav').classList.toggle('scrolled', window.scrollY > 50);
-        });
+        }, { passive: true });
         
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -784,7 +844,11 @@
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
-                if (target) target.scrollIntoView({ behavior: 'smooth' });
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    const menu = document.getElementById('mobileMenu');
+                    if (menu.classList.contains('active')) toggleMenu();
+                }
             });
         });
         
@@ -822,10 +886,8 @@
                 const su = document.getElementById('subject');
                 const subjectText = su.options[su.selectedIndex].text;
                 const msg = document.getElementById('message').value;
-                
                 const body = 'Nom: ' + fn + ' ' + ln + '%0AEmail: ' + em + '%0AEntreprise: ' + co + '%0ASujet: ' + subjectText + '%0A%0AMessage:%0A' + msg;
                 window.location.href = 'mailto:' + _e + '?subject=' + encodeURIComponent('APS — ' + subjectText) + '&body=' + body;
-                
                 const btn = contactForm.querySelector('.form-submit');
                 btn.textContent = '✓ Ouverture de votre messagerie...';
                 btn.style.background = '#22c55e';
