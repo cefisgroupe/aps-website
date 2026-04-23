@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>APS — Association des Professionnels du Soudage du Maroc</title>
+    <meta name="description" content="L'Association des Professionnels du Soudage du Maroc (APS) fédère les experts du soudage, contrôle non destructif et inspection au Maroc et en Afrique. Formation, certification et networking.">
+    <meta name="keywords" content="soudage Maroc, soudure Maroc, association soudage, professionnel soudage, CND, contrôle non destructif, inspection, certification soudage, formation soudage Maroc, APS Maroc, welding Morocco">
+    <meta name="author" content="Association des Professionnels du Soudage du Maroc">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aps-maroc.ma/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="APS — Association des Professionnels du Soudage du Maroc">
+    <meta property="og:description" content="Fédérer les professionnels du soudage au Maroc. Formation, certification, networking et excellence technique.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aps-maroc.ma/">
+    <meta property="og:locale" content="fr_MA">
+    <meta property="og:site_name" content="APS Maroc">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="APS — Association des Professionnels du Soudage du Maroc">
+    <meta name="twitter:description" content="Fédérer les professionnels du soudage au Maroc. Formation, certification, networking et excellence technique.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Association des Professionnels du Soudage du Maroc",
+        "alternateName": "APS Maroc",
+        "url": "https://aps-maroc.ma",
+        "logo": "",
+        "description": "Association fédérant les professionnels du soudage, contrôle non destructif et inspection au Maroc et en Afrique.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "MA",
+            "addressLocality": "Casablanca"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "contact@aps-maroc.ma",
+            "contactType": "customer service",
+            "availableLanguage": ["French", "Arabic", "English"]
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/aps-maroc",
+            "https://www.youtube.com/@apsmaroc"
+        ]
+    }
+    </script>
+    
+    <style>
+        /* CSS Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #ff6b45;
+            --primary-dark: #e55a35;
+            --secondary: #ffde59;
+            --accent: #00569e;
+            --accent-dark: #004480;
+            --dark: #1a1a2e;
+            --dark-light: #2d2d44;
+            --gray-900: #111827;
+            --gray-800: #1f2937;
+            --gray-700: #374151;
+            --gray-600: #4b5563;
+            --gray-500: #6b7280;
+            --gray-400: #9ca3af;
+            --gray-300: #d1d5db;
+            --gray-200: #e5e7eb;
+            --gray-100: #f3f4f6;
+            --gray-50: #f9fafb;
+            --white: #ffffff;
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+            --shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+            --radius: 12px;
+            --radius-lg: 20px;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+        
+        body {
+            font-family: var(--font);
+            line-height: 1.6;
+            color: var(--gray-800);
+            background: var(--white);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        ul { list-style: none; }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--gray-200);
+            transition: all 0.3s ease;
+        }
+        
+        .nav.scrolled {
+            box-shadow: var(--shadow);
+        }
+        
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+        }
+        
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 800;
+            font-size: 1.25rem;
+            color: var(--dark);
+        }
+        
+        .nav-logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .nav-link {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-600);
+            transition: color 0.2s;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .nav-cta {
+            padding: 0.6rem 1.25rem;
+            background: var(--primary);
+            color: var(--white);
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        
+        .nav-cta:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+        
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+        
+        .nav-toggle span {
+            width: 24px;
+            height: 2px;
+            background: var(--gray-800);
+            transition: all 0.3s;
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
+            padding-top: 70px;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 80%;
+            height: 200%;
+            background: radial-gradient(ellipse, rgba(255,107,69,0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 60%;
+            height: 120%;
+            background: radial-gradient(ellipse, rgba(0,86,158,0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255,107,69,0.15);
+            border: 1px solid rgba(255,107,69,0.3);
+            border-radius: 50px;
+            color: var(--primary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero-badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--primary);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            color: var(--white);
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-text {
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            color: var(--gray-400);
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            box-shadow: 0 4px 15px rgba(255,107,69,0.4);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255,107,69,0.5);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        .btn-outline:hover {
+            border-color: var(--white);
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .hero-stats {
+            display: flex;
+            gap: 3rem;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .hero-stat {
+            text-align: left;
+        }
+        
+        .hero-stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--white);
+        }
+        
+        .hero-stat-label {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            margin-top: 0.25rem;
+        }
+        
+        /* Sections */
+        section {
+            padding: 6rem 0;
+        }
+        
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 4rem;
+        }
+        
+        .section-label {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .section-title {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            color: var(--gray-900);
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+        
+        /* About Section */
+        .about {
+            background: var(--gray-50);
+        }
+        
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        
+        .about-image {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            background: linear-gradient(135deg, var(--accent), var(--dark));
+        }
+        
+        .about-image-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1rem;
+            color: var(--white);
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .about-image-icon {
+            font-size: 4rem;
+            opacity: 0.9;
+        }
+        
+        .about-image-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .about-content h2 {
+            font-size: clamp(1.75rem, 3vw, 2.5rem);
+            font-weight: 800;
+            color: var(--gray-900);
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        .about-content p {
+            color: var(--gray-600);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .about-feature {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .about-feature-icon {
+            width: 32px;
+            height: 32px;
+            background: rgba(255,107,69,0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .about-feature-icon svg {
+            width: 16px;
+            height: 16px;
+            stroke: var(--primary);
+        }
+        
+        .about-feature span {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-700);
+        }
+        
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            border-color: var(--primary);
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-4px);
+        }
+        
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, rgba(255,107,69,0.1), rgba(255,222,89,0.1));
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-icon svg {
+            width: 28px;
+            height: 28px;
+            stroke: var(--primary);
+        }
+        
+        .service-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 0.75rem;
+        }
+        
+        .service-card p {
+            color: var(--gray-600);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        
+        /* Certification Section */
+        .certification {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .certification::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: radial-gradient(ellipse at center right, rgba(255,107,69,0.1) 0%, transparent 70%);
+        }
+        
+        .certification .section-title {
+            color: var(--white);
+        }
+        
+        .certification .section-subtitle {
+            color: var(--gray-400);
+        }
+        
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .cert-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            transition: all 0.3s;
+        }
+        
+        .cert-card:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: var(--primary);
+            transform: translateY(-4px);
+        }
+        
+        .cert-card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .cert-badge {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .cert-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        
+        .cert-card p {
+            color: var(--gray-400);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+        
+        /* Events Section */
+        .events {
+            background: var(--gray-50);
+        }
+        
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        
+        .event-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s;
+        }
+        
+        .event-card:hover {
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-4px);
+        }
+        
+        .event-image {
+            height: 200px;
+            background: linear-gradient(135deg, var(--accent), var(--primary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .event-date {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: var(--white);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+        
+        .event-date-day {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1;
+        }
+        
+        .event-date-month {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--gray-600);
+            text-transform: uppercase;
+        }
+        
+        .event-image-icon {
+            font-size: 3rem;
+            opacity: 0.8;
+        }
+        
+        .event-content {
+            padding: 1.5rem;
+        }
+        
+        .event-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: rgba(255,107,69,0.1);
+            color: var(--primary);
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        
+        .event-content h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 0.5rem;
+        }
+        
+        .event-content p {
+            color: var(--gray-600);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        
+        /* Partners Section */
+        .partners-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .partner-logo {
+            width: 120px;
+            height: 60px;
+            background: var(--gray-100);
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--gray-500);
+            font-size: 0.8rem;
+            transition: all 0.3s;
+        }
+        
+        .partner-logo:hover {
+            background: var(--gray-200);
+            transform: scale(1.05);
+        }
+        
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -20%;
+            width: 140%;
+            height: 200%;
+            background: radial-gradient(ellipse, rgba(255,255,255,0.1) 0%, transparent 60%);
+        }
+        
+        .cta-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .cta h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        
+        .cta p {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+        }
+        
+        .btn-white {
+            background: var(--white);
+            color: var(--primary);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn-white:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl);
+        }
+        
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+        
+        .contact-info h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info > p {
+            color: var(--gray-600);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+        
+        .contact-items {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        .contact-item-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(255,107,69,0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .contact-item-icon svg {
+            width: 20px;
+            height: 20px;
+            stroke: var(--primary);
+        }
+        
+        .contact-item-content h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 0.25rem;
+        }
+        
+        .contact-item-content p,
+        .contact-item-content a {
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+        
+        .contact-item-content a:hover {
+            color: var(--primary);
+        }
+        
+        .contact-form {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem;
+            box-shadow: var(--shadow);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--gray-700);
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.85rem 1rem;
+            border: 1px solid var(--gray-300);
+            border-radius: var(--radius);
+            font-family: var(--font);
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            background: var(--white);
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(255,107,69,0.1);
+        }
+        
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .form-submit {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            border: none;
+            border-radius: var(--radius);
+            font-family: var(--font);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .form-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255,107,69,0.4);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--gray-900);
+            color: var(--gray-400);
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-brand h3 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+        
+        .footer-brand h3 span {
+            color: var(--primary);
+        }
+        
+        .footer-brand p {
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+        
+        .footer-social a:hover {
+            background: var(--primary);
+            transform: translateY(-2px);
+        }
+        
+        .footer-social svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--white);
+        }
+        
+        .footer-column h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-column ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        
+        .footer-column a {
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        
+        .footer-column a:hover {
+            color: var(--primary);
+        }
+        
+        .footer-bottom {
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .footer-bottom p {
+            font-size: 0.85rem;
+        }
+        
+        .footer-bottom-links {
+            display: flex;
+            gap: 2rem;
+        }
+        
+        .footer-bottom-links a {
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+        
+        .footer-bottom-links a:hover {
+            color: var(--primary);
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 70px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--white);
+            z-index: 999;
+            padding: 2rem;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .mobile-menu.active {
+            display: flex;
+        }
+        
+        .mobile-menu a {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .services-grid,
+            .events-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .nav-toggle {
+                display: flex;
+            }
+            
+            .hero-stats {
+                gap: 2rem;
+                flex-wrap: wrap;
+            }
+            
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .services-grid,
+            .events-grid,
+            .cert-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            section {
+                padding: 4rem 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                justify-content: center;
+                width: 100%;
+            }
+            
+            .hero-stats {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            
+            .partners-logos {
+                gap: 1.5rem;
+            }
+            
+            .partner-logo {
+                width: 100px;
+                height: 50px;
+            }
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+        
+        /* Accessibility */
+        :focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        
+        /* Print styles */
+        @media print {
+            .nav, .hero::before, .hero::after { display: none; }
+            .hero { min-height: auto; padding: 2rem 0; }
+            section { padding: 2rem 0; }
+            body { color: #000; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Navigation principale">
+        <div class="container nav-inner">
+            <a href="#" class="nav-logo" aria-label="APS Maroc - Accueil">
+                <div class="nav-logo-icon">⚡</div>
+                <span>APS <span style="color: var(--primary)">Maroc</span></span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#about" class="nav-link">À propos</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#events" class="nav-link">Événements</a>
+                <a href="#partners" class="nav-link">Partenaires</a>
+                <a href="#contact" class="nav-cta">Nous contacter</a>
+            </div>
+            
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu" role="menu">
+        <a href="#about" onclick="toggleMenu()">À propos</a>
+        <a href="#services" onclick="toggleMenu()">Services</a>
+        <a href="#certifications" onclick="toggleMenu()">Certifications</a>
+        <a href="#events" onclick="toggleMenu()">Événements</a>
+        <a href="#partners" onclick="toggleMenu()">Partenaires</a>
+        <a href="#contact" onclick="toggleMenu()">Nous contacter</a>
+    </div>
+    
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Association Professionnelle
+                </div>
+                <h1>
+                    Les Professionnels du <span>Soudage au Maroc</span>
+                </h1>
+                <p class="hero-text">
+                    L'APS fédère les experts du soudage, du contrôle non destructif et de l'inspection industrielle au Maroc et en Afrique. Formation, certification et excellence technique.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        Devenir membre
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        Découvrir l'APS
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">500+</div>
+                        <div class="hero-stat-label">Membres actifs</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">50+</div>
+                        <div class="hero-stat-label">Entreprises partenaires</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">15+</div>
+                        <div class="hero-stat-label">Ans d'expertise</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">1000+</div>
+                        <div class="hero-stat-label">Professionnels certifiés</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-overlay">
+                        <div class="about-image-icon">🔧</div>
+                        <div class="about-image-text">Excellence Technique</div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">À propos de l'APS</span>
+                    <h2>Une association au service de la profession</h2>
+                    <p>
+                        L'Association des Professionnels du Soudage du Maroc (APS) est née de la volonté de rassembler tous les acteurs de la filière soudage : soudeurs, ingénieurs, inspecteurs, contrôleurs, enseignants et industriels.
+                    </p>
+                    <p>
+                        Notre mission : promouvoir l'excellence technique, développer les compétences, faciliter le networking et représenter la profession auprès des institutions nationales et internationales.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span>Formation continue</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span>Certification reconnue</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span>Networking professionnel</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span>Représentation internationale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Nos services</span>
+                <h2 class="section-title">Ce que nous offrons à nos membres</h2>
+                <p class="section-subtitle">
+                    Des services complets pour accompagner les professionnels du soudage dans leur développement et leur montée en compétences.
+                </p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Formation & Développement</h3>
+                    <p>Programmes de formation continue adaptés aux normes internationales (IIW, EWF, ISO). Stages pratiques, séminaires et workshops techniques.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Certification & Qualification</h3>
+                    <p>Certification du personnel soudeur selon les normes ISO 9606, qualification des modes opératoires (QMOS/DMOS), certification ISO 3834.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    </div>
+                    <h3>Contrôle Non Destructif</h3>
+                    <p>Formation et certification CND selon les normes ISO 9712 : radiographie, ultrasons, magnétoscopie, ressuage, courants de Foucault.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Networking & Communauté</h3>
+                    <p>Événements professionnels, conférences, visites d'entreprises. Connectez-vous avec les acteurs clés de la filière soudage au Maroc.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                    </div>
+                    <h3>Expertise & Conseil</h3>
+                    <p>Assistance technique, audit de procédés, expertise en cas de non-conformité. Nos experts vous accompagnent dans vos projets industriels.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>Représentation Internationale</h3>
+                    <p>L'APS représente le Maroc auprès des organisations internationales : IIW (International Institute of Welding), EWF et autres instances.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Certification Section -->
+    <section class="certification" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Certifications</span>
+                <h2 class="section-title">Des certifications reconnues internationalement</h2>
+                <p class="section-subtitle">
+                    Nos certifications sont alignées sur les standards internationaux pour garantir la compétence et la qualité de nos membres.
+                </p>
+            </div>
+            <div class="cert-grid">
+                <article class="cert-card">
+                    <div class="cert-card-header">
+                        <div class="cert-badge">🏅</div>
+                        <h3>ISO 9606 — Qualification Soudeurs</h3>
+                    </div>
+                    <p>Qualification des soudeurs selon les procédés SMAW, GTAW, GMAW, FCAW, SAW. Tests pratiques et théoriques conformes aux exigences internationales.</p>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-card-header">
+                        <div class="cert-badge">🔬</div>
+                        <h3>ISO 9712 — Contrôle Non Destructif</h3>
+                    </div>
+                    <p>Certification du personnel CND aux niveaux 1, 2 et 3. Couverture de toutes les méthodes : RT, UT, MT, PT, ET.</p>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-card-header">
+                        <div class="cert-badge">🏭</div>
+                        <h3>ISO 3834 — Qualité en Soudage</h3>
+                    </div>
+                    <p>Certification des exigences de qualité pour le soudage des matériaux métalliques. Accompagnement vers la conformité complète.</p>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-card-header">
+                        <div class="cert-badge">👨‍🏫</div>
+                        <h3>IIW/EWF — Standards Internationaux</h3>
+                    </div>
+                    <p>Formations IWS, IWT, IWE, EWE selon les directives de l'International Institute of Welding et l'European Federation for Welding.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Événements</span>
+                <h2 class="section-title">Actualités et événements à venir</h2>
+                <p class="section-subtitle">
+                    Restez informé des prochaines formations, conférences et rencontres professionnelles organisées par l'APS.
+                </p>
+            </div>
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-image" style="background: linear-gradient(135deg, #ff6b45, #ffde59);">
+                        <div class="event-date">
+                            <div class="event-date-day">15</div>
+                            <div class="event-date-month">Juin</div>
+                        </div>
+                        <div class="event-image-icon">🎓</div>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-tag">Formation</span>
+                        <h3>Journée Technique : Soudage des aciers inoxydables</h3>
+                        <p>Formation approfondie sur les techniques de soudage TIG et MIG des aciers inoxydables. Cas pratiques et retours d'expérience.</p>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <div class="event-image" style="background: linear-gradient(135deg, #00569e, #004480);">
+                        <div class="event-date">
+                            <div class="event-date-day">22</div>
+                            <div class="event-date-month">Sept</div>
+                        </div>
+                        <div class="event-image-icon">🏆</div>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-tag">Compétition</span>
+                        <h3>Championnat National du Soudage 2026</h3>
+                        <p>Compétition nationale réunissant les meilleurs soudeurs du Maroc. Catégories TIG, MIG/MAG et électrode enrobée.</p>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <div class="event-image" style="background: linear-gradient(135deg, #1a1a2e, #2d2d44);">
+                        <div class="event-date">
+                            <div class="event-date-day">10</div>
+                            <div class="event-date-month">Nov</div>
+                        </div>
+                        <div class="event-image-icon">🌍</div>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-tag">Conférence</span>
+                        <h3>Conférence Africaine du Soudage — Casablanca</h3>
+                        <p>Rencontre panafricaine des professionnels du soudage. Thèmes : innovation, normes, développement durable et formation.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Partners Section -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Partenaires</span>
+                <h2 class="section-title">Ils nous font confiance</h2>
+                <p class="section-subtitle">
+                    L'APS collabore avec les acteurs majeurs de l'industrie au Maroc et à l'international.
+                </p>
+            </div>
+            <div class="partners-logos">
+                <div class="partner-logo">OCP Group</div>
+                <div class="partner-logo">Renault Maroc</div>
+                <div class="partner-logo">Stellantis</div>
+                <div class="partner-logo">IIW</div>
+                <div class="partner-logo">EWF</div>
+                <div class="partner-logo">Bureau Veritas</div>
+                <div class="partner-logo">SGS Maroc</div>
+                <div class="partner-logo">TÜV Rheinland</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container cta-content">
+            <h2>Rejoignez l'APS aujourd'hui</h2>
+            <p>
+                Intégrez une communauté de professionnels passionnés et bénéficiez de formations, certifications et opportunités de networking exclusives.
+            </p>
+            <a href="#contact" class="btn btn-white">
+                Devenir membre
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">
+                    Une question, un besoin d'information ou souhaitez-vous devenir membre ? N'hésitez pas à nous contacter.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Restons en contact</h3>
+                    <p>
+                        Notre équipe est à votre disposition pour répondre à toutes vos questions concernant nos services, formations et adhésions.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="contact-item-content">
+                                <h4>Adresse</h4>
+                                <p>Casablanca, Maroc</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div class="contact-item-content">
+                                <h4>Email</h4>
+                                <a href="mailto:contact@aps-maroc.ma">contact@aps-maroc.ma</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div class="contact-item-content">
+                                <h4>Téléphone</h4>
+                                <a href="tel:+212500000000">+212 5 00 00 00 00</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" action="#" method="POST" aria-label="Formulaire de contact">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">Prénom *</label>
+                            <input type="text" id="firstName" name="firstName" required placeholder="Votre prénom">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Nom *</label>
+                            <input type="text" id="lastName" name="lastName" required placeholder="Votre nom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="votre@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Entreprise</label>
+                        <input type="text" id="company" name="company" placeholder="Nom de votre entreprise">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <select id="subject" name="subject">
+                            <option value="">Sélectionnez un sujet</option>
+                            <option value="membership">Demande d'adhésion</option>
+                            <option value="formation">Information sur les formations</option>
+                            <option value="certification">Certification</option>
+                            <option value="partenariat">Proposition de partenariat</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Votre message..."></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">
+                        Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>APS <span>Maroc</span></h3>
+                    <p>
+                        Association des Professionnels du Soudage du Maroc. Fédérer, former et certifier les experts du soudage en Afrique.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/company/aps-maroc" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                        <a href="https://www.youtube.com/@apsmaroc" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
+                        </a>
+                        <a href="mailto:contact@aps-maroc.ma" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#events">Événements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Formation</a></li>
+                        <li><a href="#certifications">Certification</a></li>
+                        <li><a href="#services">CND</a></li>
+                        <li><a href="#services">Conseil</a></li>
+                        <li><a href="#partners">Partenariats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Ressources</h4>
+                    <ul>
+                        <li><a href="#">Normes & Standards</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Espace membres</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 APS Maroc — Association des Professionnels du Soudage du Maroc. Tous droits réservés.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu toggle
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const toggle = document.querySelector('.nav-toggle');
+            menu.classList.toggle('active');
+            const isOpen = menu.classList.contains('active');
+            toggle.setAttribute('aria-expanded', isOpen);
+        }
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.service-card, .cert-card, .event-card').forEach(el => {
+            el.style.opacity = '0';
+            observer.observe(el);
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
